@@ -1,6 +1,6 @@
 section
-  h1(style="font-variant: small-caps") New Adventures in Puzzle Fonts:
-  h2(style="font-variant: small-caps") Introducing “Puzzle Puzzle Fonts”
+  h1(style="font-variant: small-caps") New Adventures in Puzzle Fonts
+  h1(style="font-variant: small-caps") … About Puzzles
   hr
   h4
     u Erik Demaine
@@ -18,37 +18,32 @@ section
 
 section
   h2 Puzzle Font: Falling
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&puzzle=1")
-
-section
-  h2 Puzzle Font: Falling
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&puzzle=1")
-
-section
-  h2 Puzzle Font: Packing
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&black=1")
+  .r-stack.r-stretch
+    div
+      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&puzzle=1")
+    .fragment
+      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&puzzle=1")
 
 section
   h2 Puzzle Font: Packing
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0")
+  .r-stack.r-stretch
+    div
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&black=1")
+    .fragment
+      iframe.bg-white.fade-in(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0")
 
 section
-  h2 Puzzle Puzzle Fonts
+  h2 Puzzle Fonts about Puzzles
   ul
     li <b>Mathematical font</b> illustrates mathematical theorems or problems in the glyphs themselves
     li <b>Puzzle font</b> requires solving puzzle to read text
-    li <b>Puzzle puzzle font</b> is about a puzzle/game
+    li <u>Theme today:</u> Fonts <b>about a puzzle</b>/puzzle game
   p
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&anim=0&puzzle=1")
-
-section
-  h2 Puzzle Puzzle Fonts
-  ul
-    li <b>Mathematical font</b> illustrates mathematical theorems or problems in the glyphs themselves
-    li <b>Puzzle font</b> requires solving puzzle to read text
-    li <b>Puzzle puzzle font</b> is about a puzzle/game
-  p
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&puzzle=1")
+  .r-stack.r-stretch
+    div
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&anim=0&puzzle=1")
+    .fragment
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&puzzle=1")
 
 section
   h2 Conclusion
