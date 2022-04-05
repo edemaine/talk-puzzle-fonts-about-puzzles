@@ -9,7 +9,7 @@ This repository contains slides for our talk...
 [![Title slide](title_slide.jpg)](https://...github.io/)
 -->
 
-## Technology: reveal.js + KaTeX + Pug + Stylus + CoffeeScript + [SVG Tiler] + [SVG.js]
+## Technology: reveal.js + KaTeX + Pug + Stylus + CoffeeScript <!--+ [SVG Tiler] + [SVG.js]-->
 
 This repository uses the
 [reveal-pug-talk template](https://github.com/edemaine/reveal-pug-talk)
@@ -28,11 +28,13 @@ to make slides by combining the following technology (all free and open source):
   for CSS (styling of HTML)
 * [CoffeeScript](https://coffeescript.org/): an indentation-based language
   that compiles to JavaScript
+<!--
 * [SVG Tiler](https://github.com/edemaine/svgtiler):
   a library for converting ASCII art in slides into high-quality SVG graphics
 * [SVG.js](https://svgdotjs.github.io/):
   a library that makes it easy to add animations to SVG drawings
   (including those made by SVG Tiler)
+-->
 * [Gulp](https://gulpjs.com/): a tool that builds the Pug code into HTML
 
 ## Structure
