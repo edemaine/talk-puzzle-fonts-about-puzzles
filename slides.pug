@@ -10,17 +10,17 @@ section
 
 section
   //h2 Tetris Font
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font")
+  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&speed=2")
 
 section
   h2 Tetris Font
-  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=abcdefghi%0Ajklmnopqr%0Astuvwxyz")
+  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=abcdefghi%0Ajklmnopqr%0Astuvwxyz&speed=2")
 
 section
   h2 Puzzle Font: Falling
   .r-stack.r-stretch
     div
-      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&puzzle=1")
+      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&puzzle=1", data-preload)
     .fragment
       iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&puzzle=1")
 
@@ -28,9 +28,9 @@ section
   h2 Puzzle Font: Packing
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&black=1")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&black=1", data-preload)
     .fragment
-      iframe.bg-white.fade-in(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0")
+      iframe.bg-white.fade-in(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0", data-preload)
 
 section
   h2 Puzzle Fonts about Puzzles
@@ -41,7 +41,7 @@ section
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&anim=0&puzzle=1")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&anim=0&puzzle=1", data-preload)
     .fragment
       iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=martin+gardner&puzzle=1")
 
@@ -52,16 +52,16 @@ section
     div
       iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=sudoku&size=314", style="width:970px")
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=sudoku&size=314&mode=solved&path=0", style="width:970px")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=sudoku&size=314&mode=solved&path=0", style="width:970px", data-preload)
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=sudoku&size=314&mode=solved", style="width:970px")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=sudoku&size=314&mode=solved", style="width:970px", data-preload)
 
 section
   h2 Sudoku Font
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=153&mode=solved")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=153&mode=solved", data-preload)
 
 section
   h2 Sudoku Font Variations
@@ -75,27 +75,30 @@ section
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=mg&size=535&mode=puzzle&hints=1")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=mg&size=535&mode=puzzle&hints=1", data-preload)
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=mg&size=535&mode=solved")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=mg&size=535&mode=solved", data-preload)
+  p
+  ul
+    li Future work: Generate hard Sudoku puzzles
 
 section
   h2 Yin-Yang
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=yin+yang&size=262")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=yin+yang&size=262", data-preload)
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=yin+yang&font=solved&size=262")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=yin+yang&font=solved&size=262", data-preload)
 
 section
   h2 Yin-Yang Font
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&font=solved&size=133")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&font=solved&size=133", data-preload)
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=133")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=133", data-preload)
 
 section
   h2 Conclusion
