@@ -48,5 +48,12 @@ html(nighteye="disabled")
             boardmarkerWidth: 7
             colorButtons: true
             theme: 'whiteboard'
+        Reveal.on 'resize', ->
+          slides = document.querySelector '.reveal .slides'
+          if slides.style.zoom and slides.style.zoom > 1
+            document.querySelectorAll 'iframe'
+            .forEach (iframe) ->
+              iframe.style.transform = "scale(#{slides.style.zoom})"
+              iframe.style.transformOrigin = 'top left'
       //- Inline additional scripts etc. here.  Currently CoffeeScript 1 only.
       //- include:coffee-script index.coffee
