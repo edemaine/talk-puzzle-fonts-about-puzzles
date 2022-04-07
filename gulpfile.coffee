@@ -35,6 +35,9 @@ deploySet = [
   './.nojekyll'
   './index.html'
   # Add images etc. in ./ to this list
+  './images/nyt_image.png'
+  './images/nyt_logo.png'
+  './images/nyt_title.png'
   './node_modules/reveal.js/dist/reveal.js'
   './node_modules/reveal.js/dist/reveal.css'
   './node_modules/reveal.js/dist/theme/black.css'
