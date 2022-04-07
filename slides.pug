@@ -1,12 +1,23 @@
 section
-  h1(style="font-variant: small-caps") New Adventures in Puzzle Fonts
-  h1(style="font-variant: small-caps") … About Puzzles
+  h2(style="font-variant: small-caps") (New Adventures in)
+  h1(style="font-variant: small-caps") Puzzle Fonts<br>About Puzzles
   hr
   h4
     u Erik Demaine
     span.sep &bull;
     | Martin Demaine
-  h4 M.I.T.
+    span.sep &bull;
+    | @ M.I.T.
+  .columns.bg-white(style="height: 330px")
+    //-.r-stretch
+    .column.fill(style="flex-basis: 26%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=f&size=250&mode=solved", data-preload, frameborder=0)
+    .column.fill(style="flex-basis: 25%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=o&size=230&font=solved", data-preload, frameborder=0)
+    .column.fill(style="flex-basis: 29%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=n&size=270&font=solved", data-preload, frameborder=0)
+    .column.fill(style="flex-basis: 25%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/tatamibari/?hud=0&text=t&size=240&font=solved", data-preload, frameborder=0, style="padding-top: 20px")
 
 section
   div.bg-white
