@@ -50,10 +50,13 @@ html(nighteye="disabled")
             theme: 'whiteboard'
         Reveal.on 'resize', ->
           slides = document.querySelector '.reveal .slides'
-          if slides.style.zoom and slides.style.zoom > 1
-            document.querySelectorAll 'iframe'
-            .forEach (iframe) ->
-              iframe.style.transform = "scale(#{slides.style.zoom})"
+          zoom = slides.style.zoom
+          document.querySelectorAll 'iframe'
+          .forEach (iframe) ->
+            if zoom and zoom > 1
+              iframe.style.transform = "scale(#{zoom})"
               iframe.style.transformOrigin = 'top left'
+            else
+              iframe.style.transform = ''
       //- Inline additional scripts etc. here.  Currently CoffeeScript 1 only.
       //- include:coffee-script index.coffee
