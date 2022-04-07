@@ -22,6 +22,9 @@ section
 section
   h2 Tetris Font
   iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=abcdefghi%0Ajklmnopqr%0Astuvwxyz&speed=2")
+  ul
+    li <b>NP-complete</b> with 8 columns or 4 rows
+      cite.ml-2(style="font-size:80%") [Asif, Coulombe, Demaine, Demaine, Hesterberg, Lynch, Singhal 2020]
 
 section
   h2 Puzzle Font: Falling
@@ -54,6 +57,7 @@ section
 
 section
   h2 Sudoku
+    cite.ml-2 [Howard Garns, 1979]
   p
   .r-stack.r-stretch
     div
@@ -90,7 +94,8 @@ section
     li Future work: Generate hard Sudoku puzzles
 
 section
-  h2 Yin-Yang
+  h2 Yin-Yang Puzzles
+    cite.ml-2 [<i>Puzzler</i>, 1994]
   p
   .r-stack.r-stretch
     div
@@ -103,9 +108,13 @@ section
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&font=solved&size=133", data-preload)
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&font=solved&size=117", data-preload)
     .fragment
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=133", data-preload)
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=117", data-preload)
+  p
+  ul
+    li <b>NP-complete</b>
+      cite.ml-2 [Demaine, Lynch, Rudoy, Uno 2021]
 
 section
   h2 Yin-Yang Puzzle
@@ -117,7 +126,30 @@ section
   a(href="https://erikdemaine.org/fonts/yinyang/g4g.html") https://erikdemaine.org/fonts/yinyang/g4g.html
 
 section
-  h2 Thanks!
+  h2 Path Puzzles
+    cite.ml-2 [Rod Kimball, 2013]
+  p
+  .r-stack.r-stretch
+    div
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=pathpuzz&size=268", data-preload)
+    .fragment
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=pathpuzz&size=268&font=solved", data-preload)
+
+section
+  h2 Path Puzzle Font
+    //cite [Bosboom, Demaine, Demaine, Hesterberg, Kimball, Kopinsky, 2010]
+  p
+  .r-stack.r-stretch
+    div
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=abcdefghijklmnopqrstuvwxyz&size=130&font=solved", data-preload)
+  p
+  ul
+    li <b>NP-complete</b>
+      cite.ml-2 [Bosboom, Demaine, Demaine, Hesterberg, Kimball, Kopinsky, 2010]
+
+section
+  //h2 Thanks!
+  iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=thank+you&speed=2&puzzle=1")
   ul
     li Visit <a href="https://erikdemaine.org/fonts/">https://erikdemaine.org/fonts/</a><br>to play with these and many more fonts!
     li Yin-Yang puzzle: <a href="https://erikdemaine.org/fonts/yinyang/g4g.html">erikdemaine.org/fonts/yinyang/g4g.html</a>
