@@ -48,15 +48,17 @@ html(nighteye="disabled")
             boardmarkerWidth: 7
             colorButtons: true
             theme: 'whiteboard'
-        Reveal.on 'resize', ->
-          slides = document.querySelector '.reveal .slides'
+        ## Hack to remove 'zoom' style in current RevealJS
+        unzoom = ->
+          slides = Reveal.getSlidesElement()
           zoom = slides.style.zoom
-          document.querySelectorAll 'iframe'
-          .forEach (iframe) ->
-            if zoom and zoom > 1
-              iframe.style.transform = "scale(#{zoom})"
-              iframe.style.transformOrigin = 'top left'
-            else
-              iframe.style.transform = ''
+          if zoom and zoom > 1
+            slides.style.zoom = ''
+            slides.style.transform = "scale(#{zoom})"
+        Reveal.on 'ready', unzoom
+        Reveal.on 'slidechanged', unzoom
+        Reveal.on 'slidetransitionend', unzoom
+        Reveal.on 'resize', unzoom
+        setInterval unzoom, 1000
       //- Inline additional scripts etc. here.  Currently CoffeeScript 1 only.
       //- include:coffee-script index.coffee
