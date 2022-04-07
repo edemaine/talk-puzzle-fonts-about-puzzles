@@ -8,16 +8,17 @@ section
     | Martin Demaine
     span.sep &bull;
     | @ M.I.T.
-  .columns.bg-white(style="height: 330px")
-    //-.r-stretch
-    .column.fill(style="flex-basis: 26%")
-      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=f&size=250&mode=solved", data-preload, frameborder=0)
-    .column.fill(style="flex-basis: 25%")
-      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=o&size=230&font=solved", data-preload, frameborder=0)
-    .column.fill(style="flex-basis: 29%")
-      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=n&size=270&font=solved", data-preload, frameborder=0)
-    .column.fill(style="flex-basis: 25%")
-      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/tatamibari/?hud=0&text=t&size=240&font=solved", data-preload, frameborder=0, style="padding-top: 20px")
+  .columns.bg-white.r-stretch(style="margin-top: 60px")
+    .column.fill(style="flex-basis: 20%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=f&anim=0", data-preload, frameborder=0, style="padding-top: 5px")
+    .column.fill(style="flex-basis: 20%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=o&size=200&mode=solved", data-preload, frameborder=0, style="padding-top: 5px")
+    .column.fill(style="flex-basis: 18%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/yinyang/?hud=0&text=n&size=180&font=solved", data-preload, frameborder=0, style="padding-top: 5px")
+    .column.fill(style="flex-basis: 22%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/pathpuzzles/?hud=0&text=t&size=215&font=solved", data-preload, frameborder=0, style="padding-top: 0px")
+    .column.fill(style="flex-basis: 20%")
+      iframe.h-100.bg-white(data-src="https://erikdemaine.org/fonts/tatamibari/?hud=0&text=s&size=180&font=solved", data-preload, frameborder=0, style="padding-top: 25px")
 
 section
   div.bg-white
@@ -41,17 +42,17 @@ section
   h2 Puzzle Font: Falling
   .r-stack.r-stretch
     div
-      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&puzzle=1", data-preload)
+      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=+gathering%0Afor++gardner&anim=0&puzzle=1", data-preload)
     .fragment
-      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&puzzle=1")
+      iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=+gathering%0Afor++gardner&puzzle=1")
 
 section
   h2 Puzzle Font: Packing
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0&black=1", data-preload)
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetro%0Aminoes&anim=0&black=1", data-preload)
     .fragment
-      iframe.bg-white.fade-in(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetris%0A++font&anim=0", data-preload)
+      iframe.bg-white.fade-in(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=tetro%0Aminoes&anim=0", data-preload)
   p
   ul
     li Packings found with
@@ -94,7 +95,7 @@ section
   p
   .r-stack.r-stretch
     div
-      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=aaaaaa&size=314", style="width:970px")
+      iframe.bg-white(data-src="https://erikdemaine.org/fonts/sudoku/?hud=0&text=gggggg&size=314", style="width:970px")
 
 section
   h2 Sudoku Font Puzzles
@@ -187,5 +188,10 @@ section
   //h2 Thanks!
   iframe.r-stretch.bg-white(data-src="https://erikdemaine.org/fonts/tetris/?hud=0&text=thank+you&speed=2&puzzle=1")
   ul
-    li Visit <a href="https://erikdemaine.org/fonts/">https://erikdemaine.org/fonts/</a><br>to play with these and many more fonts!
-    li Yin-Yang puzzle: <a href="https://erikdemaine.org/fonts/yinyang/g4g.html">erikdemaine.org/fonts/yinyang/g4g.html</a>
+    li Visit
+      a(href="https://erikdemaine.org/fonts/").ml-2 https://erikdemaine.org/fonts/
+      br
+      | to play with these and many more fonts!
+    li Yin-Yang puzzle:
+      br
+      a(href="https://erikdemaine.org/fonts/yinyang/g4g.html") erikdemaine.org/fonts/yinyang/g4g.html
