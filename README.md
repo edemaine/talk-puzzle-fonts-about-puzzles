@@ -1,13 +1,23 @@
-<!--Fill in the following with your talk details (if desired).
+# Talk: Puzzle Fonts About Puzzles
 
-# Talk:
+This repository contains slides for a talk “**Puzzle Fonts About Puzzles**”
+(originally titled “**New Adventures in Puzzle Fonts**”),
+presented (remotely) at the
+[14th Gathering 4 Gardner Conference (G4G14)](https://www.gathering4gardner.org/g4g14/)
+held April 6–10, 2022 in Atlanta, Georgia.
 
-This repository contains slides for our talk...
+The slides demonstrate the following three
+interactive mathematical puzzle fonts:
 
-## [View Slides](https://...github.io/)
+1. [Tetris Font](https://erikdemaine.org/fonts/tetris/)
+2. [Sudoku Font](https://erikdemaine.org/fonts/sudoku/)
+3. [Yin-Yang Font](https://erikdemaine.org/fonts/yinyang/)
+4. [Path Puzzles Font](https://erikdemaine.org/fonts/pathpuzzles/)
+5. [Tatamibari Font](https://erikdemaine.org/fonts/tatamibari/)
 
-[![Title slide](title_slide.jpg)](https://...github.io/)
--->
+## [View Slides](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
+
+[![Title slide](title_slide.jpg)](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
 
 ## Technology: reveal.js + KaTeX + Pug + Stylus + CoffeeScript <!--+ [SVG Tiler] + [SVG.js]-->
 
