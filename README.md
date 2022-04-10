@@ -16,6 +16,10 @@ about puzzles:
 4. [Path Puzzles Font](https://erikdemaine.org/fonts/pathpuzzles/)
 5. [Tatamibari Font](https://erikdemaine.org/fonts/tatamibari/)
 
+## [Watch Video](https://youtu.be/K6M3ELHr5Ls)
+
+[Here's a recording](https://youtu.be/K6M3ELHr5Ls) of the live talk.
+
 ## [View Slides](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
 
 [![Title slide](title_slide.jpg)](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
