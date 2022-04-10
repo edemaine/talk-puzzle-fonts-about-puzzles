@@ -6,8 +6,8 @@ presented (remotely) at the
 [14th Gathering 4 Gardner Conference (G4G14)](https://www.gathering4gardner.org/g4g14/)
 held April 6–10, 2022 in Atlanta, Georgia.
 
-The slides demonstrate the following three
-interactive mathematical puzzle fonts:
+The slides demonstrate the following five
+interactive mathematical puzzle fonts about puzzles:
 
 1. [Tetris Font](https://erikdemaine.org/fonts/tetris/)
 2. [Sudoku Font](https://erikdemaine.org/fonts/sudoku/)
