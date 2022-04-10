@@ -20,9 +20,9 @@ about puzzles:
 
 [Here's a recording](https://youtu.be/K6M3ELHr5Ls) of the live talk.
 
-## [View Slides](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
+## [View Slides](https://edemaine.github.io/talk-puzzle-fonts-about-puzzles/)
 
-[![Title slide](title_slide.jpg)](https://edemaine.github.io/puzzle-puzzle-fonts-talk)
+[![Title slide](title_slide.jpg)](https://edemaine.github.io/talk-puzzle-fonts-about-puzzles/)
 
 ## Technology: reveal.js + KaTeX + Pug + Stylus + CoffeeScript <!--+ [SVG Tiler] + [SVG.js]-->
 
