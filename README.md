@@ -7,7 +7,8 @@ presented (remotely) at the
 held April 6–10, 2022 in Atlanta, Georgia.
 
 The slides demonstrate the following five
-interactive mathematical puzzle fonts about puzzles:
+[interactive mathematical puzzle fonts](https://erikdemaine.org/fonts/)
+about puzzles:
 
 1. [Tetris Font](https://erikdemaine.org/fonts/tetris/)
 2. [Sudoku Font](https://erikdemaine.org/fonts/sudoku/)
