@@ -11,10 +11,15 @@ The slides demonstrate the following five
 about puzzles:
 
 1. [Tetris Font](https://erikdemaine.org/fonts/tetris/)
+   ([GitHub repo](https://github.com/edemaine/font-tetris))
 2. [Sudoku Font](https://erikdemaine.org/fonts/sudoku/)
+   ([GitHub repo](https://github.com/edemaine/font-sudoku))
 3. [Yin-Yang Font](https://erikdemaine.org/fonts/yinyang/)
+   ([GitHub repo](https://github.com/edemaine/font-yinyang))
 4. [Path Puzzles Font](https://erikdemaine.org/fonts/pathpuzzles/)
+   ([GitHub repo](https://github.com/edemaine/font-pathpuzzles))
 5. [Tatamibari Font](https://erikdemaine.org/fonts/tatamibari/)
+   ([GitHub repo](https://github.com/edemaine/font-tatamibari))
 
 ## [Watch Video](https://youtu.be/K6M3ELHr5Ls)
 
